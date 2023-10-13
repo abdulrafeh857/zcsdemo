@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:key="terminal_sn_key"
+        android:title="@string/pref_terminal_sn"
+        android:summary="@string/unknown"/>
+
+    <Preference
+        android:key="firmware_version_key"
+        android:title="@string/pref_firmware_version"
+        android:summary="@string/unknown"/>
+
+    <Preference
+        android:key="base_sdk_version_key"
+        android:title="@string/pref_base_sdk_version"
+        android:summary="@string/unknown"/>
+
+    <Preference
+        android:key="sdk_version_key"
+        android:title="@string/pref_sdk_version"
+        android:summary="@string/unknown"/>
+</PreferenceScreen>

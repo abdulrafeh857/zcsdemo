@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zcs.zcssdkdemo">
+
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+
+    <!-- if you want to connect to another bluetooth, need to grant this permission
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    -->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ntagctivity">
+        </activity>
+        <activity android:name=".SLE4442Activity">
+        </activity>
+        <activity android:name=".SLE4428Activity">
+        </activity>
+        <activity android:name=".AT24CXXActivity">
+        </activity>
+        <activity android:name=".AT102Activity">
+        </activity>
+        <activity android:name=".AT1608Activity">
+        </activity>
+        <activity android:name=".AT153Activity">
+        </activity>
+        <activity android:name=".ExternalPortActivity">
+        </activity>
+        <activity android:name=".EmvActivity">
+        </activity>
+        <activity
+            android:name="com.zcs.sdk.pin.pinpad.PinPadPasswordActivity"
+            android:theme="@style/Theme.WindowActivity">
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:key="common_print_paper_key"
+        android:title="@string/pref_paper_print">
+        <Preference
+            android:key="print_text_key"
+            android:title="@string/pref_print_text"/>
+
+        <Preference
+            android:key="print_qrcode_key"
+            android:title="@string/pref_print_qrcode"/>
+
+        <Preference
+            android:key="print_barcode_key"
+            android:title="@string/pref_print_barcode"/>
+
+        <Preference
+            android:key="print_bitmap_key"
+            android:title="@string/pref_print_bitmap"/>
+
+        <Preference
+            android:key="cut_paper_key"
+            android:title="@string/pref_cut_paper_key"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="label_print_paper_key"
+        android:title="@string/pref_label_print">
+
+        <Preference
+            android:key="print_lable_key"
+            android:title="@string/pref_print_label"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="print_with_service"
+        android:title="@string/pref_print_service">
+
+        <Preference
+            android:key="print_with_android_service_key"
+            android:title="@string/pref_print_with_android_service"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="print_with_bluetooth_key"
+        android:title="@string/pref_print_with_bluetooth">
+            <Preference
+                android:key="connect_bluetooth"
+                android:title="@string/pref_connect_bluetooth"/>
+            <Preference
+                android:key="print_text_with_bluetooth_key"
+                android:title="@string/pref_print_text_with_bluetooth"/>
+            <Preference
+                android:key="print_qrcode_with_bluetooth_key"
+                android:title="@string/pref_qrcode_text_with_bluetooth"/>
+            <Preference
+                android:key="print_barcode_with_bluetooth_key"
+                android:title="@string/pref_barcode_text_with_bluetooth"/>
+            <Preference
+                android:key="print_bitmap_with_bluetooth_key"
+                android:title="@string/pref_bitmap_text_with_bluetooth"/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

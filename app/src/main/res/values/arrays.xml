@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="led_lights">
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>YELLOW</item>
+        <item>BLUE</item>
+        <item>ALL</item>
+        <item>ALL_OFF</item>
+    </string-array>
+    <string-array name="led_lights_value">
+        <item>Red</item>
+        <item>Green</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>All</item>
+        <item>All OFF</item>
+    </string-array>
+</resources>

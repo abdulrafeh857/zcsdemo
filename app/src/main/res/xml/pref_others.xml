@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:entries="@array/led_lights"
+        android:entryValues="@array/led_lights_value"
+        android:key="others_led_key"
+        android:title="@string/pref_others_led_key"/>
+
+    <Preference
+        android:key="others_beeper_key"
+        android:title="@string/pref_others_beeper_key"/>
+
+    <Preference
+        android:key="others_lcd_key"
+        android:title="@string/pref_others_lcd_key"/>
+
+    <Preference
+        android:key="others_cashdrawer_key"
+        android:title="@string/pref_others_cashdrawer_key"/>
+</PreferenceScreen>

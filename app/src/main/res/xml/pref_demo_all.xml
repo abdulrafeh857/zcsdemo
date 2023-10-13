@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:icon="@mipmap/set"
+        android:key="demo_info_key"
+        android:title="@string/pref_device_info"/>
+
+    <Preference
+        android:icon="@mipmap/print"
+        android:key="demo_print_key"
+        android:title="@string/pref_print"/>
+
+    <Preference
+        android:icon="@mipmap/card"
+        android:key="demo_card_key"
+        android:title="@string/pref_card"/>
+
+    <Preference
+        android:icon="@mipmap/icon_encryption"
+        android:key="demo_pinpad_key"
+        android:title="@string/pref_pinpad"/>
+
+    <Preference
+        android:icon="@mipmap/test"
+        android:key="demo_others_key"
+        android:title="@string/pref_others"/>
+</PreferenceScreen>

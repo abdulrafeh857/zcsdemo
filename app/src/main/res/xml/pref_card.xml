@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/common_card_category"/>
+    <Preference
+        android:key="emv_key"
+        android:title="@string/pref_emv"/>
+
+    <Preference
+        android:key="IC_card_key"
+        android:title="@string/pref_IC_card"/>
+
+    <Preference
+        android:key="psam_card_key"
+        android:title="@string/pref_psam_card"/>
+
+    <Preference
+        android:key="magnetic_card_key"
+        android:title="@string/pref_magnetic_card"/>
+
+    <Preference
+        android:key="contactless_card_key"
+        android:title="@string/pref_contactless_card"/>
+
+    <Preference
+        android:key="felica_card_key"
+        android:title="@string/pref_felica_card"/>
+
+    <Preference
+        android:key="read_M1_card_key"
+        android:title="@string/pref_read_M1_card"/>
+
+    <Preference
+        android:key="write_M1_card_key"
+        android:title="@string/pref_write_M1_card"/>
+
+    <Preference
+        android:key="read_Mifare_Plus_card_key"
+        android:title="@string/pref_read_Mifare_Plus_card_key"/>
+
+    <Preference
+        android:key="ntag_key"
+        android:title="@string/pref_ntag"/>
+
+    <Preference
+        android:key="sle4442_key"
+        android:title="@string/pref_sle4442"/>
+
+    <Preference
+        android:key="sle4428_key"
+        android:title="@string/pref_sle4428"/>
+
+    <Preference
+        android:key="at24_key"
+        android:title="@string/pref_at24"/>
+
+    <Preference
+        android:key="at102_key"
+        android:title="@string/pref_at102"/>
+
+    <Preference
+        android:key="at1608_key"
+        android:title="@string/pref_at1608"/>
+
+    <Preference
+        android:key="at153_key"
+        android:title="@string/pref_at153"/>
+
+    <Preference
+        android:key="external_ic_key"
+        android:title="@string/pref_external_ic"/>
+
+    <PreferenceCategory
+        android:title="@string/special_card_category"/>
+
+    <Preference
+        android:key="thailand_card_key"
+        android:title="@string/key_Thailand_card"/>
+</PreferenceScreen>

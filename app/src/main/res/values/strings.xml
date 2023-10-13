@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">ZcsSdkDemo</string>
+
+    <string name="demo_title">Zcs SDK Demo</string>
+
+    <string name="pref_device_info">Device info</string>
+    <string name="pref_print">Print</string>
+    <string name="pref_card">Card</string>
+    <string name="pref_pinpad">Pinpad</string>
+    <string name="pref_others">Others</string>
+
+    <string name="pref_terminal_sn">Terminal SN</string>
+    <string name="pref_firmware_version">Firmware version</string>
+    <string name="pref_base_sdk_version">Base sdk version</string>
+    <string name="pref_sdk_version">Sdk version</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="pref_paper_print">Common print paper</string>
+    <string name="pref_print_text">Print text</string>
+    <string name="pref_print_qrcode">Print QRcode</string>
+    <string name="pref_print_barcode">Print barcode</string>
+    <string name="pref_print_bitmap">Print bitmap</string>
+    <string name="pref_label_print">Label sticker</string>
+    <string name="pref_print_label">Print label</string>
+    <string name="pref_cut_paper_key">Cut paper</string>
+
+    <string name="pref_print_without_sdk">Print without SDK</string>
+    <string name="pref_print_service">Print service</string>
+    <string name="pref_print_with_android_service">Print with android print service</string>
+    <string name="pref_print_with_bluetooth">Bluetooth  print</string>
+    <string name="pref_connect_bluetooth">Connect bluetooth</string>
+    <string name="pref_print_text_with_bluetooth">Print text</string>
+    <string name="pref_qrcode_text_with_bluetooth">Print QRcode</string>
+    <string name="pref_barcode_text_with_bluetooth">Print barcode</string>
+    <string name="pref_bitmap_text_with_bluetooth">Print bitmap</string>
+
+    <string name="pref_IC_card">IC card</string>
+    <string name="msg_ic_card">Please insert IC card</string>
+
+    <string name="pref_psam_card">PSAM</string>
+    <string name="msg_psam_card">Reading PSAM</string>
+
+    <string name="pref_magnetic_card">Magnetic card</string>
+    <string name="msg_magnet_card">Please swipe magnetic card</string>
+
+    <string name="pref_contactless_card">Contactless card</string>
+    <string name="msg_contactless_card">Please swing contactless card</string>
+
+    <string name="pref_felica_card">Felica card</string>
+    <string name="msg_felica_card">Please swing felica card</string>
+
+    <string name="pref_read_M1_card">Read M1 card</string>
+    <string name="pref_write_M1_card">Write M1 card</string>
+    <string name="msg_read_m1_card">Please swing M1 card</string>
+
+    <string name="pref_read_Mifare_Plus_card_key">Read Mifare plus card</string>
+    <string name="msg_read_mifare_plus_card">Please swing Mifare plus card</string>
+
+    <string name="waiting">Waiting...</string>
+
+    <string name="pref_ntag">NTAG</string>
+    <string name="pref_sle4442">SLE4442</string>
+    <string name="pref_sle4428">SLE4428</string>
+    <string name="pref_at24">AT24CXX</string>
+    <string name="pref_at102">AT88SC102</string>
+    <string name="pref_at1608">AT88SC1608</string>
+    <string name="pref_at153">AT88SC153</string>
+    <string name="pref_external_ic">External IC</string>
+    <string name="pref_emv">EMV</string>
+    <string name="pref_read_all">Read all</string>
+
+    <string name="common_card_category">Common</string>
+    <string name="special_card_category">Special</string>
+    <string name="key_Thailand_card">Read Thailand card</string>
+
+    <string name="init">init</string>
+    <string name="verify_key">verify</string>
+    <string name="read">read</string>
+    <string name="write">write</string>
+    <string name="read_protect">read protect</string>
+    <string name="write_protect">write protect</string>
+    <string name="change">change key</string>
+    <string name="error_count">error count</string>
+    <string name="verify_success">verify successfully</string>
+    <string name="verify_failed">verify failed</string>
+    <string name="read_first">Read first</string>
+    <string name="input_byte">Input first byte to write(Hexadecimal)</string>
+
+    <string name="init_success">Initializing success</string>
+    <string name="init_failed">Initializing failed</string>
+
+
+    <string name="one_click_test">One click test</string>
+    <string name="specific_slot">Specific slot</string>
+    <string name="input_slot">Input slot(1~16)</string>
+    <string name="detecting">detecting</string>
+
+    <!--sdk sdkult-->
+    <string name="SDK_OK">OK</string>
+    <string name="SDK_ERROR">Error</string>
+    <string name="SDK_PARAMERR">Params error</string>
+    <string name="SDK_TIMEOUT">Timeout</string>
+    <string name="SDK_RECV_DATA_ERROR">Recv data error</string>
+    <string name="SDK_ICC_BASE_ERR">Icc base error</string>
+    <string name="SDK_ICC_ERROR">Icc error</string>
+    <string name="SDK_ICC_PARAM_ERROR">Icc param error</string>
+    <string name="SDK_ICC_NO_CARD">Icc no card</string>
+    <string name="SDK_ICC_NO_RESP">Icc no resp</string>
+    <string name="SDK_ICC_COMM_ERR">Icc communicate error</string>
+    <string name="SDK_ICC_RESP_ERR">Icc resp error</string>
+    <string name="SDK_ICC_NO_POWER_ON">Icc no power on</string>
+    <string name="SDK_RF_BASE_ERR">Rf base error</string>
+    <string name="SDK_RF_ERROR">Rf error</string>
+    <string name="SDK_RF_PARAM_ERROR">Rf param error</string>
+    <string name="SDK_RF_ERR_NOCARD">Rf no card</string>
+    <string name="SDK_RF_ERR_CARD_CONFLICT">Rf card conflict</string>
+    <string name="SDK_RF_TIME_OUT">Rf time out</string>
+    <string name="SDK_RF_PROTOCOL_ERROR">Rf error protocol</string>
+    <string name="SDK_RF_TRANSMISSION_ERROR">Rf transmission error</string>
+    <string name="SDK_MAG_BASE_ERR">Mag base error</string>
+    <string name="SDK_MAG_ERROR">Sdk mag error</string>
+    <string name="SDK_MAG_PARAM_ERROR">Mag param error</string>
+    <string name="SDK_MAG_NO_BRUSH">Mag no brush</string>
+    <string name="SDK_PRN_BASE_ERR">Print base error</string>
+    <string name="SDK_PRN_ERROR">Print error</string>
+    <string name="SDK_PRN_PARAM_ERROR">Print params error</string>
+    <string name="SDK_PRN_STATUS_PAPEROUT">Print status paper out</string>
+    <string name="SDK_PRN_STATUS_TOOHEAT">Print status too heat</string>
+    <string name="SDK_PRN_STATUS_FAULT">Print status fault</string>
+    <string name="SDK_PAD_BASE_ERR">Pad base error</string>
+    <string name="SDK_PAD_ERR_NOPIN">Pad error no pin</string>
+    <string name="SDK_PAD_ERR_CANCEL">Pad error cancel</string>
+    <string name="SDK_PAD_ERR_EXCEPTION">pad work exception</string>
+    <string name="SDK_PAD_ERR_TIMEOUT">Pad error timeout</string>
+    <string name="SDK_PAD_ERR_NEED_WAIT">Pad error need wait</string>
+    <string name="SDK_PAD_ERR_DUPLI_KEY">Pad error dupli key</string>
+    <string name="SDK_PAD_ERR_INVALID_INDEX">Pad err invalid index</string>
+    <string name="SDK_PAD_ERR_NOTSET_KEY">Pad err no test key</string>
+    <string name="SDK_UNKNOWN_ERROR">Unknown error</string>
+
+    <!--pin pad fragment-->
+    <string name="pref_setworkKey">Update work key</string>
+    <string name="pref_setmaster_key">Set master key</string>
+    <string name="pref_getpinblock">Input PIN</string>
+    <string name="pref_getmac">Calc mac</string>
+    <string name="pref_track_encrypt">Track data encrypt</string>
+    <string name="set_ok">ok</string>
+    <string name="set_cancel">cancel</string>
+    <string name="no_mag_card_data">No magnetic card data information, please brush your card and try again</string>
+    <string name="show_second_track">Display second track text data:</string>
+    <string name="show_second_track_cipher">Display second track ciphertext data:</string>
+    <string name="show_three_track">Display Three track ciphertext data:</string>
+    <string name="update_work_key_success">Update the work key success</string>
+    <string name="update_work_key_failure">Update work key failure</string>
+    <string name="update_master_key_success">Update the master key success</string>
+    <string name="update_master_key_failure">Update master key failure</string>
+    <string name="calc_mac_encrypt_success">Calculating the success of MAC encryption:</string>
+    <string name="calc_mac_encrypt_failure">Computing MAC encryption failure</string>
+    <string name="input_master_key_meg">input master key message</string>
+    <string name="input_master_key_index">input master key index(0-F):</string>
+    <string name="input_master_key_front">input master key before 16 byte:</string>
+    <string name="input_master_key_back">input master key after 16 byte:</string>
+    <string name="input_master_key_decrypt_index">input master decryption key index (0-F):</string>
+    <string name="input_mac_key_meg">arith mac encrypt</string>
+    <string name="input_mac_key_index">input mac key index (0-F):</string>
+    <string name="input_mac_key_datainfo">input mac key after 20 byte:</string>
+    <string name="input_mac_key_algorithm">arith encrypt:</string>
+
+    <!--others fragment-->
+    <string name="pref_others_led_key">LED</string>
+    <string name="pref_others_beeper_key">Beeper</string>
+    <string name="pref_others_lcd_key">LCD</string>
+    <string name="pref_others_cashdrawer_key">Cash Drawer</string>
+</resources>
