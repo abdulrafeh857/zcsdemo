@@ -1,5 +1,6 @@
 # zcsdemo
 Z100 Fast-running POS with 80mm Built-in Thermal Printer and 2D Bar Code Scanner
+
 This document is applicable to the Android platform SDK of Smart POS (Z90, Z91, Z92, Z100), MPOS (Z70), all-in-one card reader module (Z45) and other products.
 This document uses Android Studio as the development environment by default. If you use other development platforms to develop, please refer to the environment of the corresponding platform. 
 This document is for reference only. 
